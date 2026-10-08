@@ -1,0 +1,1 @@
+AI FastAPI/Docker package. Configure server secrets in the hosting provider; do not upload .env. Build with Dockerfile.

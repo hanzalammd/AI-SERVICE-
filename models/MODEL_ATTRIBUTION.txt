@@ -1,0 +1,12 @@
+MiniFASNet-V2 ONNX model attribution
+
+Model: MiniFASNet-V2 (2.7_80x80), ONNX export
+Repository: https://huggingface.co/garciafido/minifasnet-v2-anti-spoofing-onnx
+Upstream project: https://github.com/minivision-ai/Silent-Face-Anti-Spoofing
+License stated by model repository: Apache License 2.0
+Upstream attribution: minivision-ai (Beijing Mininglamp Vision Technology Co., Ltd.)
+
+The model is a single-image face anti-spoof classifier. EduSphere evaluates three consecutive frames independently and requires all three frame scores to pass. This is frame consensus, not temporal neural-network analysis. It is not a certified liveness solution and cannot guarantee detection of every presentation or camera-injection attack. Validate with consented participants and real classroom conditions before operational use.
+
+Model SHA-256 expected by the downloader:
+d7b3cd9ba8a7ceb13baa8c4720902e27ca3112eff52f926c08804af6b6eecc7b
